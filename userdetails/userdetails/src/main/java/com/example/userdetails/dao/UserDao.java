@@ -9,4 +9,6 @@ public interface UserDao {
     Optional<UserData> findById(Integer id);
 
     UserData add(UserData user);
+
+//    public void deleteUser(Integer userId);
 }
